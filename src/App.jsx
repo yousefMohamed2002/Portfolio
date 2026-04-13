@@ -406,7 +406,7 @@ export default function App() {
                   <pre className="p-6 text-[11px] font-mono leading-relaxed text-blue-300/70 overflow-x-auto"><code>{codeSnippets[selectedProject.slug]}</code></pre>
                 </div>
                 <div className="mt-8 p-6 bg-blue-600/5 border border-blue-500/10 rounded-2xl flex items-center justify-between group">
-                  <div><div className="text-[9px] font-bold text-blue-400 uppercase tracking-widest mb-1">{t.credentials}</div><div className="text-[11px] font-mono text-slate-400 italic">User: yousef.elkholy@fmail.com // Pass: yousef1234</div></div>
+                  <div><div className="text-[9px] font-bold text-blue-400 uppercase tracking-widest mb-1">{t.credentials}</div><div className="text-[11px] font-mono text-slate-400 italic">User: yousef.elkholy@gmail.com // Pass: yousef1234</div></div>
                   <button onClick={handleCopyCredentials} className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">{copied ? <Check size={16} /> : <Copy size={16} />}</button>
                 </div>
               </div>
